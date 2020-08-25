@@ -2,10 +2,10 @@ class Dog
   @@all = []
   
   def initialize
-    self.save
+    save
   end
   
-  def self.save
+  def save
     @@all << self    
   end
   
