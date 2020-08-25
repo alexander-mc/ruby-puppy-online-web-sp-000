@@ -3,7 +3,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    save
+    @@all << save
   end
   
   def save
