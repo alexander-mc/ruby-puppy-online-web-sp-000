@@ -3,12 +3,12 @@ class Dog
   
   def initialize(name)
     @name = name
-    @@all << save
+    @@all << self
   end
   
-  def save
-    @@all << self    
-  end
+  # def save
+  #   @@all << self    
+  # end
   
   def self.all
     @@all
