@@ -15,11 +15,11 @@ class Dog
     @@all
   end
   
-  # def self.print_all
-  #   @@all.each {|dog| puts dog}
-  # end
+  def self.print_all
+    @@all.each {|dog| puts dog}
+  end
   
 end
 
-fido = Dog.new
-lassie = Dog.new
+fido = Dog.new("fido")
+lassie = Dog.new("lassie")
