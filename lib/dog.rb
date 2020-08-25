@@ -23,4 +23,3 @@ end
 
 fido = Dog.new
 lassie = Dog.new
-Dog.print_all
