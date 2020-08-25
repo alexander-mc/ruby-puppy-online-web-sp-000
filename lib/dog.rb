@@ -26,4 +26,4 @@ end
 
 fido = Dog.new("fido")
 lassie = Dog.new("lassie")
-puts Dog.all
+Dog.print_all
